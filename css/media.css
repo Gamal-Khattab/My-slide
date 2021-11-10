@@ -1,0 +1,64 @@
+/* Max 575 */
+@media (max-width:575px) {
+
+}
+/* min 576 to Max 767*/
+@media (min-width:576px)and(max-width:767px) {
+
+}
+/* Max 767.5 */
+@media (max-width:767.5px) {
+    :root {
+       --padding: 20px;
+   }
+   h1{
+       font-size: 1.6em
+   }
+   .slider-inner>img{
+    width:auto
+  
+}
+}
+/* Min 768 to Max 991 */
+@media (min-width:768px)and (max-width:991px) {
+    
+}
+/* Max 991.5*/
+@media (max-width:991.5px) {
+    header .nav{
+        position: fixed;
+        flex-direction: column;
+        right: 9px;
+        text-align: center;
+        top: 37px;
+        display: none;
+        background: #ffffff94;
+    }
+    
+    header .nav>li{
+       padding: 15px;
+       display: inline-block;
+       
+    }
+  
+    header .nav>li:not(:last-child){
+        border-bottom: 1px solid #3f51b59c
+    }
+    
+}
+/* Min 992 to Max 1199*/
+@media (min-width:992px) and (max-width:1199px) {
+ 
+}
+/* Min 992 */
+@media (min-width:992px) {
+    header .nav{
+        display: flex
+     }
+}
+/* Min 1200 */
+@media (min-width:1200px) {
+   
+}
+
+
